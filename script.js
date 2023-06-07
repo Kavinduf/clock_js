@@ -10,7 +10,7 @@ function changeTime() {
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
   let amOrpm;
-  //   console.log(hours, minutes, seconds);
+
   hourSpan.textContent = hours;
   minuteSpan.textContent = minutes;
   secondSpan.textContent = seconds;
